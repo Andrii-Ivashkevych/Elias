@@ -1,0 +1,33 @@
+{
+  "name": "kadilniy-ugol.com.ua",
+  "version": "1.0.0",
+  "description": "Web site for church coal sell",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Andrii-Ivashkevych/Elias.git"
+  },
+  "keywords": [
+    "Church Coal",
+    "Elias Church"
+  ],
+  "author": "Andrey Ivashkevich, Sergey Zhyvotov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Andrii-Ivashkevych/Elias/issues"
+  },
+  "homepage": "https://github.com/Andrii-Ivashkevych/Elias",
+  "devDependencies": {
+    "grunt-contrib-clean": "^0.6.0",
+    "grunt-contrib-concat": "^0.5.0",
+    "grunt-contrib-copy": "^0.7.0",
+    "grunt-contrib-cssmin": "^0.10.0",
+    "grunt-contrib-uglify": "^0.6.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-env": "^0.4.2",
+    "grunt-preprocess": "^4.0.0"
+  }
+}
