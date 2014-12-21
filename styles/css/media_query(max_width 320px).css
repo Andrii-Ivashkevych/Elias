@@ -13,7 +13,6 @@
     h1 {
         font-size: 16px;
         line-height: 16px;
-        /*padding: 2px 0;*/
     }
     h3 {
         font-size: 10px;
@@ -22,20 +21,14 @@
     }
     h4 {
         display: none;
-        /*visibility: hidden;*/
-        /*font-size: 8px;*/
-        /*line-height: 8px;*/
-        /*padding: 10px 0;*/
     }
     .footer_content {
         font-size: 6px;
-        /*padding: 10px 0 10px 10px;*/
     }
     .bold {
         font-family: 'Oswald', sans-serif;
         font-size: 6px;
         font-weight: bolder;
-        /*padding: 10px 0 10px 10px;*/
     }
     .carousel {
         max-width: 320px;
