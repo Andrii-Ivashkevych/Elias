@@ -21,7 +21,7 @@ module.exports = function(grunt) {
         cssmin: {
             'styles': {
                 files: {
-                    '<%= buildFolder %>/styles/css/styles.min.css': ['styles/css/**/*.css']
+                    '<%= buildFolder %>/styles/css/styles.min.css': ['styles/css/*.css']
                 }
             }
         },
@@ -32,13 +32,13 @@ module.exports = function(grunt) {
                 }
             }
         },
-        //concat: {
-        //    'scripts-app-min': {
-        //        files: {
-        //            '<%= buildFolder %>/scripts/app.min.js': ['scripts/*.min.js']
-        //        }
-        //    }
-        //},
+        concat: {
+            'scripts-app-min': {
+                files: {
+                    '<%= buildFolder %>/scripts/app.min.js': ['scripts/*.min.js']
+                }
+            }
+        },
         copy: {
             'styles-app': {
                 files: [
@@ -57,6 +57,36 @@ module.exports = function(grunt) {
                         cwd: 'scripts/',
                         src: '**/*',
                         dest: '<%= buildFolder %>/scripts/'
+                    }
+                ]
+            },
+            'fonts-app': {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'styles/fonts/',
+                        src: '**/*',
+                        dest: '<%= buildFolder %>/styles/fonts/'
+                    }
+                ]
+            },
+            'styles-img-app': {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'styles/img/',
+                        src: '**/*',
+                        dest: '<%= buildFolder %>/styles/img/'
+                    }
+                ]
+            },
+            'img-app': {
+                files: [
+                    {
+                        expand: true,
+                        cwd: 'img/',
+                        src: '**/*',
+                        dest: '<%= buildFolder %>/img/'
                     }
                 ]
             }
