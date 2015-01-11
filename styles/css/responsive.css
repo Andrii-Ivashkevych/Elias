@@ -14,6 +14,12 @@
         font: normal 1.2em 'Izhitsa';
     }
 
+    .slider-item-description {
+        font: normal 0.6em "Tahoma", "Arial", sans-serif;
+        line-height: 1.0em;
+        width: 75%;
+    }
+
 }
 
 /*For max-width: 600px*/
