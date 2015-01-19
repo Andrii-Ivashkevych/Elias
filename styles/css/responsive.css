@@ -20,6 +20,11 @@
         width: 75%;
     }
 
+    /*For IE-10*/
+    :root p.slider-item-description {
+        width: 150px \9;
+    }
+
 }
 
 /*For max-width: 600px*/
