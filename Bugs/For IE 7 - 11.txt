@@ -51,3 +51,12 @@ For IE-10
     1.1. Doesn't display h3 with class logo.
     1.2. Text with class slider-item-description the second slide overlaps with image.
     1.3. Disrupted formatting divs with class col col-1, col col-2, col col-3.
+
+
+
+For IE-11
+
+1. Minimum screen resolution:
+    1.1. Doesn't fit title "Кадильный уголь".
+    1.2. Text with class slider-item-description the second slide overlaps with image.
+    1.3. Disrupted formatting divs with class col col-1, col col-2, col col-3.
