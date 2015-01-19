@@ -1,7 +1,7 @@
 For IE-7
 
 1. Maximizing the screen:
-    1.1. No display h3 with class logo.
+    1.1. Doesn't display h3 with class logo.
     1.2. Text with class slider-item-description on second slide overlaps with image.
     1.3. Moved right divs with class col col-2, col col-3 as for div with class col col-1.
     1.4. Clipped icon with class social.
@@ -10,6 +10,23 @@ For IE-7
     2.1. No display h3 with class logo.
     2.2. Does not fit title "Кадильный уголь".
     2.3. Text with class slider-item-description all slides overlaps with image.
-    2.4. Not disappear indicators with class owl-theme clickable owl-controls owl-page.
+    2.4. Don't disappear indicators with class owl-theme clickable owl-controls owl-page.
+    2.5. Disrupted formatting divs with class col col-1, col col-2, col col-3.
+    2.6. Clipped icon with class social.
+
+
+
+For IE-8
+
+1. Maximizing the screen:
+    1.1. Doesn't display h3 with class logo.
+    1.2. Text with class slider-item-description all slides overlaps with image.
+    1.3. Clipped icon with class social.
+
+2. Minimum screen resolution:
+    2.1. Doesn't fit title "Кадильный уголь".
+    2.2. Doesn't fit line "Реализация угля по всей Украине".
+    2.3. Don't disappear indicators with class owl-theme clickable owl-controls owl-page.
+    2.4. Doesn't change size h2 with class slider-item-text.
     2.5. Disrupted formatting divs with class col col-1, col col-2, col col-3.
     2.6. Clipped icon with class social.
