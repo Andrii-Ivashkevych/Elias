@@ -21,8 +21,8 @@
     }
 
     /*For IE-10*/
-    :root p.slider-item-description {
-        width: 150px \9;
+    .slider-item-description p:nth-child(2n) {
+        width: 250px;
     }
 
 }
