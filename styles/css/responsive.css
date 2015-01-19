@@ -83,5 +83,10 @@
         margin-top: -5px \9;
     }
 
+    :root .col-1, .col-2, .col-3 {
+        font-size: 13px \9;
+        line-height: 13px \9;
+    }
+
 }
 
