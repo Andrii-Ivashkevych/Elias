@@ -30,3 +30,15 @@ For IE-8
     2.4. Doesn't change size h2 with class slider-item-text.
     2.5. Disrupted formatting divs with class col col-1, col col-2, col col-3.
     2.6. Clipped icon with class social.
+
+
+
+For IE-9
+
+1. Maximizing the screen:
+    1.1. Text with class slider-item-description the second slide overlaps with image.
+
+2. Minimum screen resolution:
+    2.1. Doesn't display h3 with class logo.
+    2.2. Text with class slider-item-description the second and the third slides overlaps with image.
+    2.3. Disrupted formatting divs with class col col-1, col col-2, col col-3.
