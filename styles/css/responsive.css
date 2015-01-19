@@ -73,5 +73,9 @@
         font: normal 0.6em 'Izhitsa';
     }
 
+    :root .logo h1 {
+        font-size: 2.2em \9;
+    }
+
 }
 
